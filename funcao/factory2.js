@@ -8,10 +8,11 @@ console.log(criarProduto('Anna',25))
 
 //posso fazer assim, porque os nomes dos meus parametros esta estritamente igual ao do criado no objeto.
 
-function criarProduto(nome,idade){
+function criarProduto2(nome,idade){
     return{
         nome,
-        idade
+        idade,
+        desconto: '10%'
     }
 }
-console.log(criarProduto('jose',45))
+console.log(criarProduto2('jose',45))
