@@ -18,7 +18,7 @@ function Carro(velocidadeMaxima = 200, delta = 5) {
     return velocidadeAtual;
   };
 }
-// TODO:refactor class
+
 const uno = new Carro(); // uno: agora esta  (com todas as suas propriedades e métodos.)
 uno.acelerar();
 uno.acelerar();
