@@ -14,7 +14,6 @@ const p1 = new pessoa ('joão','maria')
 p1.falar()
 //reparar no fechamento de colchetes
 
-//repare que eu não precisei instanciar, porque é uma função.
 
 const criarPessoa = nome => {
     return {
