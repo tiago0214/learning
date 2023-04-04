@@ -1,7 +1,7 @@
 const [a,b,c,d,] = [3,5,1,15]//forma reduzida de criar 4 variaveis.
 
 const soma = a+b+c+d //Aqui tem um operador aritmeticos, opera sobre dois operandos.
-/*posso pegar a var "a", e tornar negativa,basta, -a*/
+/*posso pegar a var "a", e tornar negativa,basta, -a  */
 const subtracao = d-b
 const multiplicacao = a*b
 const divisao= d/a

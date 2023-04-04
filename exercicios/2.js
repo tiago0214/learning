@@ -1,4 +1,4 @@
-function saber (a,b,c){
+function ladosDoTriangulo (a,b,c){
     
     if(a==b && b==c){
         console.log('equilatero')
@@ -10,8 +10,8 @@ function saber (a,b,c){
         console.log('Escaleno')
     }
 }
-saber(1,2,3)
-saber (1,1,1)
-saber(1,2,1)
+ladosDoTriangulo(1,2,3)
+ladosDoTriangulo (1,1,1)
+ladosDoTriangulo(1,2,1)
 
 

@@ -22,9 +22,9 @@ retorno só*/
 outra coisa, eu não coloquei valor dos objetos, eu somente os criei. porém por ser um 
 recurso do proprio JS, é como se ele tivesse feito sozinho isso pra mim
 return{
-    comprarsorvete:comprarsorvete,
-    comprarTv50:comprarTv50,
-    compraTv32:comprarTv32,
-    mantersaudavel:mantersaudavel
+    comprarsorvete:'comprarsorvete',
+    comprarTv50:'comprarTv50',
+    compraTv32:'comprarTv32',
+    mantersaudavel:'mantersaudavel'
 }
 */
