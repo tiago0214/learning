@@ -5,4 +5,3 @@ function dinheiro (valor1,valor2){
     console.log('R$:'+somaformat)
 }
 dinheiro(0.1,0.2)
-
