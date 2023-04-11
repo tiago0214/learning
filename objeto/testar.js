@@ -1,0 +1,6 @@
+//somente criar uma function
+
+function soma (a,b){
+    return a+b
+}
+console.log(soma(1,2))
