@@ -48,4 +48,3 @@ delete carro.calcularValorSeguro
 
 
 console.log(carro.condutores.length)
-
