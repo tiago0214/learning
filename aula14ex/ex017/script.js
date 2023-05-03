@@ -8,4 +8,4 @@ function calcular(){
         item.text= `${numero} * ${c} = ${numero*c}`
         res.appendChild(item)
     }
-}
+}``
