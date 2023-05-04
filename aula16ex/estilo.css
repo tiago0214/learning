@@ -1,0 +1,20 @@
+body{
+    background: rgba(49, 49, 110, 0.438);
+}
+header{
+    text-align: center;
+    color: aqua;
+}
+section{
+    background: white;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 3px 3px 10px rgb(204, 19, 19);
+}
+footer{
+    text-align: center;
+    color: aquamarine;
+    font:italic;
+}
