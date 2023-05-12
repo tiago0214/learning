@@ -14,3 +14,8 @@ console.log(pessoa)
 
 const pessoaConstante = Object.freeze({nome: 'João'}) //Criei um objeto constante.
 console.log(pessoaConstante)
+
+function soma(a,b){
+    console.log( a+b)
+}
+soma(1,2)
