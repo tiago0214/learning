@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País</title>
+</head>
+<body>
+    <h1>Localidade</h1>
+    Digite o país em você mora: <input type="text" id="lugar"><br>
+    <input type="button" value="Verificar nacionalidade" onclick="verificar()">
+    <div id="resultado"></div>
+    <script>
+        function verificar(){
+            var pa = document.getElementById('lugar').value
+            var res = document.getElementById('resultado')
+            if(pa!='Brasil'&& pa!='brasil'){
+                res.innerHTML=`Você é do: <strong>${pa}</strong>, ou seja estranjeiro!`
+            }else{
+                res.innerHTML=`Você é do: <strong>${pa}</strong>, ou seja brasileiro.`
+            }
+        }
+    </script>
+</body>
+</html>
