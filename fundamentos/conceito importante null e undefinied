@@ -1,0 +1,19 @@
+ver a aula de null e undefinied
+porque no começo foi explicado, que quando eu coloco um valor para uma variável, na verdade eu não efetivamente coloquei o valor para ela, eu simplesmente falei onde é o endereço na memória onde ela esta armazenada. então se eu atribuir um valor a determinada variável e depois criar outra variável e falar que ela tem o valor da variável primeira, na verdade eu estou falando que as duas tem o mesmo endereço na memória. então ,se eu mudar o valor da segunda variável, eu também mudarei o valor da primeira. ex
+
+const a = {name:'teste'}
+const b= a
+
+
+b.name= 'mudei'
+console.log(a,b)
+
+ mas sempre ter em mente que isso deve ser feito dentro de objeto, pois é o objeto que aceita mudar as propriedades no decorrer do programa
+
+Isso é dito que é uma atribuição por referência
+
+Isso aqui não funciona, se eu estiver atribuindo o valor para a variável.do modo primitivo
+Ex: const a =3
+	const b=a
+Aqui realmente eu atribuo a variável uma copia do valor da outra variável.
+ Aqui o modo para alterar é utilizar o b++, estou dizendo para colocar mais uma unidade ao b, ou seja transformando ele agora no valor de b=4
